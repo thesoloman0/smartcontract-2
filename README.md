@@ -1,11 +1,29 @@
 **Job Criteria Smart Contract**
 ==========================
 
-**Overview**
+### Overview
+
 A simple smart contract for managing job applicants and selecting or rejecting them based on their primary and secondary results.
 
-**Description**
+### Description
+
 This project provides a basic implementation of a job selection criteria system using a smart contract. The contract allows for the addition of applicants with their primary and secondary results, and then enables the selection or rejection of applicants based on their results. The contract is designed to be deployed on the Ethereum blockchain and can be used by organizations to manage their job application process in a transparent and decentralized manner.
+
+(1) Contract successfully uses require() statement.
+
+(2) Contract successfully uses assert() statement.
+
+(3) Contract successfully uses revert() statement.
+
+### Functionalities
+
+(1) require(): Used to validate certain conditions before further execution of a function. It takes two parameters as an input.
+
+(2) assert(): The assert function, like require, is a convenience function that checks for conditions. If a condition fails, then the function execution is terminated with an error message.
+
+(3) revert(): Can be used to flag an error and revert the current call. You can also provide a message containing details about the error, and the message will be passed back to the caller. 
+    However, the message, like in require(), is an optional parameter. revert() causes the EVM to revert all the changes made to the state, and things return to the initial state or the 
+    state before the function call was made.
 
 **Getting Started**
 ### Installing
